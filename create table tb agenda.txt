@@ -1,0 +1,12 @@
+create databaseagenda_sala
+
+create table tb_agenda(
+	id int not null primary key auto_increment,
+    id_sala int not null,
+    email_solicitante varchar(50) not null,
+    dt_inicio datetime not null,
+    dt_termino datetime not null,
+    situacao varchar(10),
+	descricao text not null,
+    dt_cadastro datetime not null default CURRENT_TIMESTAMP
+)
