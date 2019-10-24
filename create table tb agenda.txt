@@ -1,4 +1,4 @@
-create databaseagenda_sala
+create database agenda_sala
 
 create table tb_agenda(
 	id int not null primary key auto_increment,
